@@ -43,13 +43,19 @@ Optional. Max 1 page.
 
 Write introduction here.
 
+If you have to cite some source (article, book, etc.),
+ use \lstinline|\cite{someref}| where \texttt{someref} is described in \texttt{bibliography.bib}.
+%
+For instance, here is a citation~\cite{DBLP:journals/eaai/CasadeiVAPD21}.
+
+
 \section{Motivation}
 
 %
 \section{Thesis Structure} % Optional paragraph title
 %
 
-(This is optional an optional paragraph.)
+(This is an optional paragraph.)
 %
 Accordingly, the reminder of this thesis is structures as follows.
 %
@@ -68,7 +74,7 @@ Write background here.
 
 This section is likely to contain a lot of citations.
 %
-For instance in \cite{AnzengruberSocInfo2013} the authors propose a novel means for tackling with the problem of preventing bad things from happening.
+For instance in \cite{DBLP:journals/eaai/CasadeiVAPD21} the authors propose a novel means for programming concurrent collective activities.
 
 %----------------------------------------------------------------------------------------
 \chapter{Design} % possible chapter for Projects
@@ -80,7 +86,7 @@ Write design here.
 \begin{figure}[h] %h for here, t for top
 	\centering
 	<\includegraphics[width=0.8\linewidth]{figures/neuron.png}
-	\caption{A class diagram created with PlantUML}
+	\caption{A short description of the picture.}
 	\label{fig:classes}
 \end{figure}
 
@@ -136,7 +142,7 @@ Numbered equations (and ref via \Cref{eq1} or Equation~\ref{eq1}) as follows
 \label{chap:validation}
 %----------------------------------------------------------------------------------------
 
-Write implementation here
+Write how you validated your work here (e.g., by tests, simulation ...)
 
 %----------------------------------------------------------------------------------------
 \chapter{\conclusionsname}
