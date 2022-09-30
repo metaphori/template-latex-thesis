@@ -6,10 +6,13 @@
 \usepackage{thesis-style}
 
 \begin{document}
+
+\pagestyle{empty}
 	
 \frontmatter
 
 \input{front.tex}
+
 
 \begin{abstract}	
 Max 2000 characters, strict.
@@ -29,6 +32,8 @@ Optional. Max 1 page.
 \lstlistoflistings % (optional) comment if empty
 %----------------------------------------------------------------------------------------
 
+\pagenumbering{arabic}
+
 \mainmatter
 
 %----------------------------------------------------------------------------------------
@@ -38,8 +43,10 @@ Optional. Max 1 page.
 
 Write introduction here.
 
+\section{Motivation}
+
 %
-\paragraph{Thesis Structure.} % Optional paragraph title
+\section{Thesis Structure} % Optional paragraph title
 %
 
 (This is optional an optional paragraph.)
@@ -70,18 +77,20 @@ For instance in \cite{AnzengruberSocInfo2013} the authors propose a novel means 
 
 Write design here.
 
-%\begin{figure}
-%	\centering
-%	\includegraphics[width=0.5\linewidth]{figures/classes.pdf}
-%	\caption{A class diagram created with PlantUML}
-%	\label{fig:classes}
-%\end{figure}
+\begin{figure}[h] %h for here, t for top
+	\centering
+	<\includegraphics[width=0.8\linewidth]{figures/neuron.png}
+	\caption{A class diagram created with PlantUML}
+	\label{fig:classes}
+\end{figure}
 
 You may want to reference images in your thesis.
 %
 In this case, you are encouraged to make them \emph{floating}, and reference them by means of labels.
 %
-For instance, in \Cref{fig:classes}, we describe a class diagram produced by means of \href{http://plantuml.com}{PlantUML}.
+For instance, see \Cref{fig:classes}.
+%
+%For classes, we describe a class diagram produced by means of \href{http://plantuml.com}{PlantUML}.
 
 %----------------------------------------------------------------------------------------
 \chapter{Implementation} % possible chapter for Projects
@@ -90,18 +99,37 @@ For instance, in \Cref{fig:classes}, we describe a class diagram produced by mea
 
 Write implementation here.
 
-%\lstinputlisting[
-%	float,
-%	language=Java,
-%	caption={My very first program in Java},
-%	label={lst:helloworld},
-%]{listings/HelloWorld.java}
+\lstinputlisting[
+	float,
+	frame=single,
+	language=Java,
+	caption={My very first program in Java},
+	label={lst:helloworld},
+]{listings/HelloWorld.java}
 
 You may need to reference listings in your thesis.
 %
 In this case, you are encouraged to make them \emph{floating}, and reference them by means of labels.
 %
 For instance, in \Cref{lst:helloworld}, we describe an hello world program in Java.
+%
+You may also use listings inline, though.
+\begin{lstlisting}[language={java}]
+public class Foo { }
+\end{lstlisting}
+
+Inline equations as follows: $\int_a^b dx$. Equations as follows
+
+$$
+\int_a^b xdx
+$$
+
+Numbered equations (and ref via \Cref{eq1} or Equation~\ref{eq1}) as follows
+
+\begin{equation}
+\label{eq1}
+\int_a^b xdx
+\end{equation}
 
 %----------------------------------------------------------------------------------------
 \chapter{Validation} % possible chapter for Projects
