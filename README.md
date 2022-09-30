@@ -11,7 +11,7 @@
 
 See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14).
 
-- TODO
+- [Getting LaTeX](https://www.latex-project.org/get/)
 
 ## On writing theses
 
