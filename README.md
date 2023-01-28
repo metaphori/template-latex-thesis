@@ -1,20 +1,5 @@
 # Bachelors' and Masters' Degree Theses: Guidelines
 
-## Using LaTeX to write theses
-
-### How to use this template
-
-- Clone or (better) fork this repository
-- Open `thesis.tex` with a LaTeX editor (e.g., `Kyle` or `TeXMaker`)
-- Compile `thesis.tex` with `bibtex` and `pdflatex` to produce the PDF of your thesis
-- Start writing your thesis, and commit/push often
-
-### Working with LaTeX
-
-See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14).
-
-- [Getting LaTeX](https://www.latex-project.org/get/)
-
 ## Theses/Dissertations 101
 
 ### Planning a thesis
@@ -58,6 +43,94 @@ FAQs and practical aspects:
 - *Q: How to check for typos and grammatical issues?*
     - NOTE: it is not a responsibility of the (co-)supervisor to find or fix these
     - Consider using tools like [LanguageTool](https://github.com/languagetool-org/languagetool) for spell and grammar checking 
+
+### Typical structure for theses
+
+#### Project-oriented theses
+
+A good structure is as per the *project exam report* of the OOP course at UNIBO Cesena Campus: [https://github.com/APICe-at-DISI/OOP-report-template](https://github.com/APICe-at-DISI/OOP-report-template)
+
+1. Introduction
+2. Background
+    1. Here you may want to provide some background on tools / processes you considered or adopted
+3. Analysis
+    1. High-level goals
+    1. Constraints
+    1. Functional and non-functional requirements
+    1. Requirements analysis
+    1. Problem analysis
+    1. Domain model
+4. Design
+    1. Architecture
+    1. Detailed design
+5. Implementation
+    1. Implementation highlights
+6. Evaluation
+    1. Testing
+    1. Experimental evaluation / demos -- the idea here is to provide *evidence*, possibly using quantitative *metrics* (but, sometimes, even *qualitative metrics* could be ok)
+7. Conclusion and Future Work
+8. Bibliography/references
+
+Important: in your dissertation, you should also provide a link to the main project's **artifacts** (ideally from a permanent repository like **Zenodo** which well integrates with **GitHub**).
+
+#### Research-oriented theses
+
+Various structures could work. For instance:
+
+1. Introduction
+2. Methods and Materials
+3. Results
+4. Discussion
+5. Conclusion and Future Work
+6. Bibliography/references
+
+Or also:
+
+1. Introduction
+2. Motivation, Background, and Related Work
+3. Contribution
+4. Evaluation
+5. Conclusion and Future Work
+6. Bibliography/references
+
+Note: you may also detail the section titles to match the actual content, e.g.,
+
+1. Introduction
+2. Background and Motivation: CAS Programming
+4. ScaFi: a DSL for CAS Programming
+5. Case study: Programming Swarms
+6. Related Work on CAS Engineering
+7. Conclusion and Future Work
+8. Bibliography/references
+
+Notice that sometimes, section "Related Work" might also fit at the end of your manuscript.
+
+### DOs and DONTs
+
+- **DON'T reuse material without citing the source**
+- **DON'T write personal stuff** in your dissertation (even in the Conclusion)
+    - Your thesis is a *technical document*
+    - No reader would care about whether e.g. you got limited results because you had little time to work on your project, or because of your limited background on something.
+- **DON'T write using informal language**
+    - E.g., avoid contractions like `don't`, `We're`, ...
+
+- **DO check** whether you have the rights to reuse material from some source/author
+- **DO consider consulting a writing style guide**
+
+## Using LaTeX to write theses
+
+### How to use this template
+
+- Clone or (better) fork this repository
+- Open `thesis.tex` with a LaTeX editor (e.g., `Kyle` or `TeXMaker`)
+- Compile `thesis.tex` with `bibtex` and `pdflatex` to produce the PDF of your thesis
+- Start writing your thesis, and commit/push often
+
+### Working with LaTeX
+
+See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14).
+
+- [Getting LaTeX](https://www.latex-project.org/get/)
 
 ## General information about Theses
 
