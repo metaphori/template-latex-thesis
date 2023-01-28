@@ -17,6 +17,15 @@ Plan your thesis (possibly, talking with *potential supervisors*):
 3. Try to devise a **plan**, e.g.,
     * in terms of **mandatory goals** and **optional goals**
 
+### Executing thesis work
+
+The suggestion is to carry out an iterative, incremental, agile approach.
+In each cycle (approx. 1 or 2 weeks):
+
+1. Work on your project/research (an increment)
+2. Report your increment and discuss it / next steps with your supervisor -- then back to (1)
+    - See next section
+
 ### On writing a thesis
 
 Typical steps
@@ -145,7 +154,8 @@ See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14
 #### Student responsibility vs. (co-)supervisor responsibilities
 
 - The student is responsible for
-    - the content of the thesis and its final quality
+    - the content of the thesis and its final quality 
+    - ensuring bureaucratic stuff is carried out by the deadlines
 - The (co-)supervisor is responsible for
     - providing *guidance* and *support*
 - Note: your thesis is **yours**.
