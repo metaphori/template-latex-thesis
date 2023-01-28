@@ -52,19 +52,6 @@ Typical steps
 
 Once you have written significant increments of your dissertation, consider **asking feedback to your supervisor**. Send your supervisor a PDF (possibly, a diff wrt the previous PDF you shared -- e.g., using tools like [Draftable](https://draftable.com/)).
 
-#### FAQs and practical aspects:
-
-- *Q: When to start writing?*
-    - As soon as you have stable results to report. 
-    - You may start early writing the background.
-    - Wait for results to be stable to write the bulk of your thesis (as the actual implementation is usually the most costly and time-consuming part of the job).
-    - Write introduction/abstract/conclusion at last.
-- *Q: What tool to actually write the thesis?* 
-    - Use **LaTeX**
-- *Q: How to check for typos and grammatical issues?*
-    - NOTE: it is not a responsibility of the (co-)supervisor to find or fix these
-    - Consider using tools like [LanguageTool](https://github.com/languagetool-org/languagetool) for spell and grammar checking 
-
 #### Typical structure for theses
 
 ##### Project-oriented theses
@@ -126,6 +113,17 @@ Note: you may also detail the section titles to match the actual content, e.g.,
 
 Notice that sometimes, section "Related Work" might also fit at the end of your manuscript.
 
+#### Writing: specific chapters
+
+- **Abstract**
+    - Very brief (e.g. 250-300 words)
+    - Abstract should briefly point out: Context, Problem/Objectives, Methods/Contribution, Results, Conclusions 
+- **Introduction**
+    - Introduction should set: Context, Scope, Significance (Motivation), Goals/High-level Questions, Methodology (briefly), Organisation of the paper (chapters and what they include)
+- **Conclusion**
+    - Conclusion chapter should point out: (1) Briefly recall problem, starting point and methods adopted, (2) Briefly report Findings, (3) Briefly discuss benefits/limitations, (4) Discuss Future Work
+
+
 #### Writing: DOs and DONTs
 
 - **DON'T reuse material without citing the source**
@@ -137,6 +135,19 @@ Notice that sometimes, section "Related Work" might also fit at the end of your 
 
 - **DO check** whether you have the rights to reuse material from some source/author
 - **DO consider consulting a writing style guide**
+
+#### FAQs and practical aspects:
+
+- *Q: When to start writing?*
+    - As soon as you have stable results to report. 
+    - You may start early writing the background.
+    - Wait for results to be stable to write the bulk of your thesis (as the actual implementation is usually the most costly and time-consuming part of the job).
+    - Write introduction/abstract/conclusion at last.
+- *Q: What tool to actually write the thesis?* 
+    - Use **LaTeX**
+- *Q: How to check for typos and grammatical issues?*
+    - NOTE: it is not a responsibility of the (co-)supervisor to find or fix these
+    - Consider using tools like [LanguageTool](https://github.com/languagetool-org/languagetool) for spell and grammar checking 
 
 ## Using LaTeX to write theses
 
