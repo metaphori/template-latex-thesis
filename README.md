@@ -1,17 +1,63 @@
-# Latex Template for Theses
+# Bachelors' and Masters' Degree Theses: Guidelines
 
-## How to use this template
+## Using LaTeX to write theses
+
+### How to use this template
 
 - Clone or (better) fork this repository
 - Open `thesis.tex` with a LaTeX editor (e.g., `Kyle` or `TeXMaker`)
 - Compile `thesis.tex` with `bibtex` and `pdflatex` to produce the PDF of your thesis
 - Start writing your thesis, and commit/push often
 
-## Working with LaTeX
+### Working with LaTeX
 
 See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14).
 
 - [Getting LaTeX](https://www.latex-project.org/get/)
+
+## Theses/Dissertations 101
+
+### Planning a thesis
+
+Plan your thesis (possibly, talking with *potential supervisors*):
+
+1. Determine the **type** of thesis (i.e. the kind of work you'd like to carry out)
+    1. **project** (tesi di progetto)
+    2. **research** (tesi di ricerca)
+    3. **report** (tesi compilativa) -- i.e., no project, no research, but a mere reportage/elaboration of existing material
+2. Determine your **subject**:
+    1. **project idea** (for project-oriented theses)
+    2. **scientific/research question** (for research-oriented theses)
+    3. **subject** (for report-oriented theses)
+3. Try to devise a **plan**, e.g.,
+    * in terms of **mandatory goals** and **optional goals**
+
+### On writing a thesis
+
+Typical steps
+
+1. Before writing the thesis document, you need your thesis **content**: it means, you need to have a rather stable software for a software project thesis, experimental/scientific results for a scientific thesis, a conceptual framework for a etc.
+
+Once you have enough material to actually start writing your thesis
+
+1. Define the high-level structure (i.e., the Sections) of the thesis
+2. You may optionally start writing the background content, as it may serve to make it explicit and fully understand it in order to develop the contribution
+3. Complete the main content (contribution, experiments)
+    * If technical developments and experiments are needed, wait to have them done: this part of the thesis is a documentation of what you have achieved (i.e., the final system, the experimental results etc.).
+4. Write Title, Introduction, Conclusion, and Abstract
+
+FAQs and practical aspects:
+
+- *Q: When to start writing?*
+    - As soon as you have stable results to report. 
+    - You may start early writing the background.
+    - Wait for results to be stable to write the bulk of your thesis (as the actual implementation is usually the most costly and time-consuming part of the job).
+    - Write introduction/abstract/conclusion at last.
+- *Q: What tool to actually write the thesis?* 
+    - Use **LaTeX**
+- *Q: How to check for typos and grammatical issues?*
+    - NOTE: it is not a responsibility of the (co-)supervisor to find or fix these
+    - Consider using tools like [LanguageTool](https://github.com/languagetool-org/languagetool) for spell and grammar checking 
 
 ## General information about Theses
 
@@ -37,29 +83,11 @@ See these [video lectures by Ciatto](https://www.youtube.com/watch?v=ihxSUsJB_14
 
 - How often should I contact my thesis (co-)supervisor, for what, and how?
     - As often as agreed with the (co-)supervisor.
-        - A typical frequency is once every two weeks, or as often as there are significant increments.
+        - A typical frequency is once every one or two weeks, or as often as there are significant increments.
     - You should contact your (co-)supervisor for "important" stuff and "strategic" decisions, rather than implementation details.
     - If you have minor questions and doubts, wait enough time to have a batch of these, and pose all the questions, numbered, in a single e-mail.
 - What if I have a blocking situation that prevents progress?
     - If it is a technical issue, spend some time exploring for solutions. If you can't find a solution, contact your (co-)supervisor, with a detailed mail explaining the problem, your tentative solutions, etc.
-    
-### On writing a thesis
-
-- Use **LaTeX**
-- Typical steps
-    1. Define the high-level structure (i.e., the Sections) of the thesis
-    2. You may optionally start writing the background content, as it may serve to make it explicit and fully understand it in order to develop the contribution
-    3. Complete the main content (contribution, experiments)
-        * If technical developments and experiments are needed, wait to have them done: this part of the thesis is a documentation of what you have achieved (i.e., the final system, the experimental results etc.).
-    4. Write Title, Introduction, Conclusion, and Abstract
-- *Q: When to start writing?*
-    - As soon as you have stable results to report. 
-    - You may start early writing the background.
-    - Wait for results to be stable to write the bulk of your thesis (as the actual implementation is usually the most costly and time-consuming part of the job).
-    - Write introduction/abstract/conclusion at last.
-- How to check for typos and grammatical issues?
-    - NOTE: it is not a responsibility of the (co-)supervisor to find or fix these
-    - Consider using tools like [LanguageTool](https://github.com/languagetool-org/languagetool) for spell and grammar checking 
 
 ## More references
 
