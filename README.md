@@ -26,6 +26,16 @@ In each cycle (approx. 1 or 2 weeks):
 2. Report your increment and discuss it / next steps with your supervisor -- then back to (1)
     - See next section
 
+Suggestion: keep the **raw material** about your work under **version control** in a repository (e.g., on GitHub)
+
+- Use *distinct repositories*
+    1. notes (e.g., on background, on literature reviews)
+    2. experimental activities (e.g., to learn a new framework or library)
+    3. the main development project or the research project artifacts
+    4. the thesis document (ideally, in LaTeX)
+- You may also consider to use an app to keep track of tasks and progress (e.g., Trello)
+- **Share those with your supervisor**. When reporting progress to your supervisor, provide a link to a proper page/artifact describing the increment.
+
 ### On writing a thesis
 
 Typical steps
@@ -39,6 +49,8 @@ Typical steps
 3. **Complete the main content** (contribution, experiments)
     * If technical developments and experiments are needed, wait to have them done: this part of the thesis is a documentation of what you have achieved (i.e., the final system, the experimental results etc.).
 4. **Write Title, Introduction, Conclusion, and Abstract**
+
+Once you have written significant increments of your dissertation, consider **asking feedback to your supervisor**. Send your supervisor a PDF (possibly, a diff wrt the previous PDF you shared -- e.g., using tools like [Draftable](https://draftable.com/)).
 
 #### FAQs and practical aspects:
 
