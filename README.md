@@ -23,15 +23,15 @@ Typical steps
 
 1. Before writing the thesis document, you need your thesis **content**: it means, you need to have a rather stable software for a software project thesis, experimental/scientific results for a scientific thesis, a conceptual framework for a etc.
 
-Once you have enough material to actually start writing your thesis
+**Once you have enough material** to actually start writing your thesis
 
-1. Define the high-level structure (i.e., the Sections) of the thesis
-2. You may optionally start writing the background content, as it may serve to make it explicit and fully understand it in order to develop the contribution
-3. Complete the main content (contribution, experiments)
+1. Define the **high-level structure** (i.e., the Sections) of the thesis
+2. You may **optionally start writing the background content**, as it may serve to make it explicit and fully understand it in order to develop the contribution
+3. **Complete the main content** (contribution, experiments)
     * If technical developments and experiments are needed, wait to have them done: this part of the thesis is a documentation of what you have achieved (i.e., the final system, the experimental results etc.).
-4. Write Title, Introduction, Conclusion, and Abstract
+4. **Write Title, Introduction, Conclusion, and Abstract**
 
-FAQs and practical aspects:
+#### FAQs and practical aspects:
 
 - *Q: When to start writing?*
     - As soon as you have stable results to report. 
@@ -44,9 +44,9 @@ FAQs and practical aspects:
     - NOTE: it is not a responsibility of the (co-)supervisor to find or fix these
     - Consider using tools like [LanguageTool](https://github.com/languagetool-org/languagetool) for spell and grammar checking 
 
-### Typical structure for theses
+#### Typical structure for theses
 
-#### Project-oriented theses
+##### Project-oriented theses
 
 A good structure is as per the *project exam report* of the OOP course at UNIBO Cesena Campus: [https://github.com/APICe-at-DISI/OOP-report-template](https://github.com/APICe-at-DISI/OOP-report-template)
 
@@ -73,7 +73,7 @@ A good structure is as per the *project exam report* of the OOP course at UNIBO 
 
 Important: in your dissertation, you should also provide a link to the main project's **artifacts** (ideally from a permanent repository like **Zenodo** which well integrates with **GitHub**).
 
-#### Research-oriented theses
+##### Research-oriented theses
 
 Various structures could work. For instance:
 
@@ -105,7 +105,7 @@ Note: you may also detail the section titles to match the actual content, e.g.,
 
 Notice that sometimes, section "Related Work" might also fit at the end of your manuscript.
 
-### DOs and DONTs
+#### Writing: DOs and DONTs
 
 - **DON'T reuse material without citing the source**
 - **DON'T write personal stuff** in your dissertation (even in the Conclusion)
